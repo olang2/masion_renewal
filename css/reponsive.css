@@ -1,0 +1,187 @@
+@media (max-width:767px){
+/* header */
+header{width: 100%;height: 50px;}
+header .trigger{display: block; margin-left: 10px;}
+header nav ul{
+  display: block;
+  width: 100%;
+  bottom: -410%; left: -110%;
+  margin-left: 0px;
+  position: absolute;
+  background-color: #fff;
+  padding-bottom: 10px;
+}
+header nav ul.active{left: 0; transition: 0.3s;}
+.header_icon a{width: 15px;height: 15px;}
+.header_icon a:last-child{margin-right: 10px;}
+.header_icon .login_icon::after{top: -15%;}
+.header_icon .wish_icon{display: none;}
+.logo a{width: 120px; height: 35px;}
+.sub_nav{display: none !important;}
+/* search pop-up*/
+.search{width: 100%;height: 50px;line-height: 50px;}
+.search input{width: 70%; height: 30px;}
+.search button{width: 17px;height: 17px;right: 13%;top: 38%;}
+.search_close{width: 17px;height: 17px;top: 38%;right: 5%;}
+/* login_inner */
+.login_inner{top: 40%;width: 50%; height:40%}
+.login_inner .int_area{width: 100%;}
+.login_inner .help a{width: 100%;margin-left: 0;}
+.login_inner .btn_area{display:flex;}
+/* cart pop-up */
+.cart{right: 0;top: 4%;}
+/* main_visual */
+.main_visual{width: 100%; top: 50px;}
+.main_visual strong{font-size: 70px;}
+.main_visual p{margin-right: 100px;}
+/* menu */
+.menu{margin: 50px auto auto auto; width: 100%; height: auto; grid-template-columns: 1fr}
+.menu a{width: 100% !important; height: 200px !important;}
+.menu a img{width: 100%;height: 200px;}
+.menu>a::after{width: 100%;}
+.menu a:nth-child(5){margin-top: 0px;}
+.menu a::before{
+  padding: 10px 60px;
+  position: absolute; top: 75%; left: 50%;
+}
+.menu a:nth-child(1)::before,.menu a:nth-child(3)::before,.menu a:nth-child(4)::before{top:75%;}
+/* show */
+.show{overflow: visible;height: 600px;margin-top: 50px;}
+.show .show_txt{
+  top: 5%; left: 5;
+  margin: 0 20px 0px 0;
+}
+.show .show_txt h2{font-size: 30px;}
+.show .show_txt p{display: none;}
+.show .show_slide h3{color:#121212; font-size: 24px;}
+.show .show_slide{position: relative;top: 0;left: 0;margin-top: 10px;}
+.show .show_slide .slide_list li{width: 150px;height: 240px;}
+.show .show_slide .slide_list li img{width: 150px;height: 240px;object-fit: cover;}
+/* highlight */
+.highlight{width: 100%;margin: 200px auto 0 auto;}
+.highlight>a{width: 100%;height: 50%;background-position: center;margin-bottom: 20px;}
+.highlight>a:hover{background: url(../sorce/img/highlight_1_hover.jpg)no-repeat;background-size: cover;background-position: bottom;}
+.highlight .img_box{display: none;}
+.highlight .text_box{width: 100%;}
+.highlight .text_box p{font-size: 35px;margin: 0px;}
+.highlight .text_box span{text-align: left;}
+.highlight .text_box a{margin-top: 20px;}
+/* footer */
+footer{width: 100%;}
+.letter{width: 90%;padding: 0px;margin: 0 auto 100px auto;}
+.letter>input[type=email]{width: 200px; height: 45px;}
+.letter .letter_check{width: 200px;}
+.letter .letter_check input[type=radio]{margin-right: 3px;}
+.letter .letter_check input[type=radio]+label{margin-right: 0px;}
+.letter .letter_check input[type=checkbox]{margin-right: 0px;}
+.letter a{width: 200px;height: 45px;line-height: 45px;}
+/* footer_bottom */
+.footer_bottom{width: 100%; height: 100%;flex-direction: column;}
+.footer_bottom .footer_center{order: -1;}
+.footer_bottom .footer_right{order: 1;width: 100%;text-align: center;padding: 0;}
+.footer_bottom .footer_left {order: 2;}
+.footer_bottom .footer_left{padding: 0px;text-align: center;margin-top: 20px;margin-bottom: 50px;}
+.footer_bottom .footer_left a{margin:5px;padding: 5px;}
+.footer_bottom .footer_right a{text-align: center; padding: 5px;margin-bottom: 20px;}
+.footer_bottom .footer_center a img{width: 120px;}
+/* subpage join */
+/* main */
+main{width: 100%;}
+main p{ margin: 0 20px 20px 20px;}
+/* subpage shop */
+.product{flex-direction: column;}
+.product .product_img{order: -1;}
+.product .product_img img{
+  width: 100%; height: 100%;}
+.product .thumnail ul{display: flex;margin: 0 20px;}
+.product .thumnail ul li {margin: 0 2px;}
+.product .thumnail ul li a{width: 100%;height: 100%;}
+.product .thumnail ul li a img{width: 100%;height: 100%;}
+.product .product_img img{width: 100%;}
+.product .detail_content{margin: 10px 30px;}
+.product .detail_content a.bag_btn{margin-right: 0; margin-top: 20px;width: 100%;}
+/* detail_img */
+.detail_img{width: 100%; height: 2000px;margin: 0;}
+.detail_img .img_box{flex-direction: column;margin: 100px auto;}
+.detail_img .img_box img{width: 100%;}
+.detail_img .img_box img:nth-child(1){width: 100%; height: 60%;}
+.detail_img .img_box img:nth-child(2){width: 100%; height: 50%;margin: 0;}
+.detail_img .img_box img:nth-child(3){width: 100%; height: 50%;position: relative;left: 0;top: 0;}
+.detail_img .img_box img:nth-child(4){width: 100%; height: 70%;}
+.highlight .img_box>a:nth-child(2),.highlight .img_box>a:nth-child(4),.img_box>a:nth-child(6){margin: 0px 0px;}
+/* like */
+.like{height: auto;padding-bottom: 50px;margin: 200px 0;}
+.like::before{top: -50px;}
+.like .like_box{flex-wrap: wrap; justify-content: center;align-items: center;}
+.like .like_box .items{width: 50%;height: 100%;}
+.like .like_box .items img{width: 100%; height: 100%;}
+.like .like_box .items::after{height: 99%;width: 100%;}
+.like .like_box .items .hover_txt h4{font-size: 16px;}
+.like .like_box .items .hover_txt h5{font-size: 14px;}
+}
+/* subpage product_listpage */
+.list_box input + label{top: 100%;}
+@media all and (min-width:768px) and (max-width:1023px){
+/* header */
+header{width: 100%;height: 70px;}
+header .trigger{display: block; margin-left: 50px;}
+header>nav>ul{
+  display: block;
+  width: 100%;
+  bottom: -300%; left: -120%;
+  position: absolute;
+  background-color: #fff;
+  padding-left: 50px;
+}
+header nav ul.active{left:-10%; transition: 0.3s;}
+.sub_nav{display: none !important;}
+.header_icon a:last-child{margin-right: 50px;}
+.cart{top: 5.5%; right: 5%;}
+/* main */
+.main_visual{top: 70px;}
+.main_visual strong{font-size: 90px;}
+/* menu */
+.menu{margin: 50px auto auto auto; width: 100%; height: auto; grid-template-columns: 1fr}
+.menu a{width: 100% !important; height: 200px !important;}
+.menu a img{width: 100%;height: 200px;}
+.menu>a::after{width: 100%;}
+.menu a:nth-child(5){margin-top: 0px;}
+.menu a::before{
+  padding: 10px 60px;
+  position: absolute; top: 75%; left: 50%;}
+.menu a:nth-child(1)::before,.menu a:nth-child(3)::before,.menu a:nth-child(4)::before{top:75%;}
+/* show */
+.show{overflow: visible;height: 600px;margin-top: 50px;}
+.show .show_txt{top: 5%; left: 5;margin: 0 20px 0px 0;}
+.show .show_txt h2{font-size: 30px;}
+.show .show_txt p{font-size: 12px;}
+.show .show_slide{position: relative;top: 0;left: 0;margin-top: 10px;}
+.show .show_slide h3{color:#121212; font-size: 24px;margin-bottom: 10px;}
+.show .show_slide a{background: url(../sorce/icon/arrow.png)no-repeat;background-size: cover;left:52%; top: 1%;width: 40px;height: 20px;}
+/* highlight */
+.highlight{width: 100%;margin: 350px auto 100px auto;height: 1300px;}
+.highlight>a{width: 100%;height: 50%; background-size: cover;background-position: center 60%; margin-bottom: 20px;}
+.highlight>a:hover{background-position: center;}
+.highlight .img_box{width: 100%;float: left;}
+.highlight .img_box>a{height: 37%;width: 100%;}
+.highlight .img_box>a:nth-child(2),.highlight .img_box>a:nth-child(4),.img_box>a:nth-child(6){margin: 20px 0px;}
+.highlight .text_box{width: 100%;  bottom: 15%; left: 20px;position: relative;margin: 0;}
+.highlight .text_box a{width: 100px;margin-right:30px;margin-top: 20px;}
+.highlight .text_box a::after{right: 0;}
+/* letter */
+.letter{margin:100px auto;}
+/* subpage shop */
+.product{width: 100%;}
+.product .product_img img{width: 100%;}
+.detail_img{width: 100%;margin: 0; height: 800px;}
+.detail_img .img_box img:nth-child(1){width: 30%;height: 50%;}
+.detail_img .img_box img:nth-child(2){width: 30%;height: 40%;}
+.detail_img .img_box img:nth-child(3){width: 30%;height: 40%; left: 32.7%;top:18%}
+.detail_img .img_box img:nth-child(4){width: 35%;height: 60%;}
+/* like */
+.like{margin-top: 200px;height: 400px;}
+.like .like_box .items{margin: 10px; height: 280px;}
+.like .like_box .items .hover_txt h4{font-size: 16px;}
+.like .like_box .items .hover_txt h5{font-size: 13px;}
+.like .like_box .items .hover_txt button{width: 100px;}
+}
